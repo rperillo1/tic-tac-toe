@@ -1,0 +1,46 @@
+.flex-grid {
+    display: flex;
+  }
+  
+.col {
+    flex: 1;
+    height: 25vmin;
+  }
+
+.one, .two, .five, .four{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.two {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.three, .six {
+    border-bottom: 1px solid black;
+}
+
+.eight {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+body {
+    text-align: center;
+    margin:0 auto;
+}
+
+p {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+#game-board {
+    font-size: 10vmin;
+    
+}
